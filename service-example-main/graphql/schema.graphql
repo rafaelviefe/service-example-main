@@ -1,0 +1,4 @@
+type Query {
+    searchCep(cep: String): Adress!
+        @cacheControl(scope: PUBLIC, maxAge: LONG)
+}
